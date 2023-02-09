@@ -64,7 +64,10 @@
             <div class="two_forms">
 
                 <div id="registration_form">
-                    <form class="row g-3" action="https://formsubmit.co/3f91a3443fd9f1981b853f566299895b" method="POST">>
+                    <form class="row g-3" action="https://formsubmit.co/3f91a3443fd9f1981b853f566299895b" method="POST">
+
+                       <input type="text" name="_honey" style="display: none;">
+                       <input type="hidden" name="_captcha" value="false">
                         <div class="stuName name">
                             <label for="studentName">Student Name *</label>
                             <input type="text" class="form-control" id="register_name" name="StudentName" autocomplete="off">
@@ -92,10 +95,10 @@
 
                         <div class="stuSkill">
                             <label for="studentSkill">Student's Level of Skill *</label>
-                            <input type="radio" name="studentSkill" /><span>Beginner</span>
-                            <input type="radio" name="studentSkill" /><span>Intermidiate</span>
-                            <input type="radio" name="studentSkill" /><span>Professional</span>
-                            <input type="radio" name="studentSkill" /><span>Member</span>
+                            <input type="radio" name="StudentSkill" /><span>Beginner</span>
+                            <input type="radio" name="StudentSkill" /><span>Intermidiate</span>
+                            <input type="radio" name="StudentSkill" /><span>Professional</span>
+                            <input type="radio" name="StudentSkill" /><span>Member</span>
                         </div>
 
                         <button class="submitBtn" id="register_btn">SUBMIT</button>
