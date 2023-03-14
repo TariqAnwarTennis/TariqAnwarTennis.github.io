@@ -39,7 +39,7 @@ html, body {
     background-color: #287094;
 }
 
-/* -------------------NAVIGATION BAR-------------------- */
+/* ---------------NAVIGATION BAR---------------- */
 
 ul.navbar {
     display: flex;
@@ -137,15 +137,15 @@ div.sub_navbar ul.dropdown_menu li.dropdown_item:hover {
 
 div.sub_navbar:hover {
     visibility: visible;
-    height: 300%;
+    height: 400%;
 }
 
 ul.navbar > li:nth-child(2):hover ~ div.sub_navbar {
     visibility: visible;
-    height: 300%;
+    height: 400%;
 }
 
-/* ---------------------------SEC 2----------------------------- */
+/* ---------------------SEC 2----------------------- */
 
 section#sec2 {
     position: relative;
